@@ -50,7 +50,7 @@ Recuerda que hay un caso muy raro donde los archivos tienen dos estados al mismo
 
 - `git reset HEAD`: nos ayuda a sacar los archivos del estado Staged para devolverlos a su estado anterior. Si los archivos venian de Unstaged, vuelven alli. Y lo mismo si venian de Untracked.
 
-- `git commit`: nos ayuda a mover archivos de Unstaged a Tracked. Esta es una ocasión especial, los archivos han sido guardados o actualizados en el repositorio. Git nos pedira que dejemos un mensaje para recordar los cambios que hicimos y podemos usar el argumento -m para describirlo ( git commit -m "mensaje").
+- `git commit`: nos ayuda a mover archivos de Unstaged a Tracked. Esta es una ocasión especial, los archivos han sido guardados o actualizados en el repositorio. Git m para describirlo ( git commit -m "mensaje").nos pedira que dejemos un mensaje para recordar los cambios que hicimos y podemos usar el argumento -
 
 - `git rm`: este comando necesita algunos de los argumentos para poder ejecutarse correctamente:
 

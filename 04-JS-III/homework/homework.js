@@ -31,10 +31,10 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   
-
+ //var nuevoArreglo = []
   for (let i = 0; i < array.length; i++) {
     array[i] = array[i] + 1
-    
+    // nuevoArreglo.push(array[i] + 1)
   }
 return array;
 }

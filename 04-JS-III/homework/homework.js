@@ -147,7 +147,7 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
   //expect(cuentoElementos([10, 10, 18, 21])).toBe(1);
-var newArray = [];
+var newArray = []; //modificando nuevamente js3
 for(var i = 0; i < arreglo.length; i++){
 if(arreglo[i] > 18) {
   newArray.push(arreglo[i])

@@ -6,7 +6,7 @@ function devolverPrimerElemento(array) {
 //let frutas = ["manzana"; "banana"]
 return array[0];
 }
-
+///.
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
@@ -14,7 +14,7 @@ function devolverUltimoElemento(array) {
 //let frutas = ["manzana", "banana"];
   return array[array.length -1];
 }
-
+//
 
 
 function obtenerLargoDelArray(array) {
@@ -24,7 +24,7 @@ return array.length;
 
 }
 
-
+//
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
@@ -38,7 +38,7 @@ function incrementarPorUno(array) {
   }
 return array;
 }
-
+//
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
@@ -48,7 +48,7 @@ array.push(elemento)
 
 return array;
 }
-
+//
 
 function agregarItemAlComienzoDelArray(array, elemento) {
   // Añade el "elemento" al comienzo del array
@@ -58,7 +58,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
 array.unshift(elemento);
 return array;
 }
-
+//
 
 function dePalabrasAFrase(palabras) {
   // "palabras" es un array de strings/cadenas
@@ -70,7 +70,7 @@ function dePalabrasAFrase(palabras) {
 
 
 }
-
+//
 
 function arrayContiene(array, elemento) { //[1, 2, 3, 4]
   // Comprueba si el elemento existe dentro de "array"
@@ -83,7 +83,7 @@ function arrayContiene(array, elemento) { //[1, 2, 3, 4]
   }
   return false;
 }
-
+//
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
@@ -95,7 +95,7 @@ for(var i=0; i<numeros.length; i++) {
 return numero;
 
 }
-
+//
 
 function promedioResultadosTest(resultadosTest) { //[1, 2, 3]
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
@@ -110,7 +110,7 @@ for(var i = 0; i<resultadosTest.length; i++) {
 }
 return suma / largoArray // 6 / 3 suma del arrray por la cantidad que hay dentro
 }
-
+//
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
@@ -124,7 +124,7 @@ function numeroMasGrande(numeros) {
  }
 } return max;
 }
-
+//
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
 // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
@@ -141,7 +141,7 @@ product*= arguments[i];
 return product;
 
 }
-
+//
 
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
@@ -155,7 +155,7 @@ if(arreglo[i] > 18) {
  }
 return newArray.length;
 }
-
+//
 function diaDeLaSemana(numeroDeDia) {
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
@@ -171,7 +171,7 @@ if(numeroDeDia < 2 || numeroDeDia > 6){
 return "Es dia Laboral";
  }
 } 
-
+//
 
 function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
@@ -183,7 +183,7 @@ function empiezaConNueve(n) {
 }
 return false;
 }
-
+//
 
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
@@ -197,7 +197,7 @@ function todosIguales(arreglo) {
   return false;
   } 
 }
-
+//
 
 function mesesDelAño(array) {
   //Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de 
@@ -220,7 +220,7 @@ return newArray;
 }
 return "No se encontraron los meses pedidos"
 }
-
+//
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
@@ -234,7 +234,7 @@ if(array[i] > 100 && array[i] <= 200){
 }
 return newArray;
 }
-
+//
 function breakStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
   //Guardar cada nuevo valor en un array. 
@@ -255,7 +255,7 @@ do{
 } while(i < 10)
 return newArray;
 }
-
+//
 
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
